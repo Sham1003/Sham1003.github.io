@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+header { 
+	background-image: url("background .jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 200px;
+}
+
+p { 
+    text-align: center;
+    font-size: 75px;
+    color:aliceblue;
+    font-weight: bold;
+    font-family: 'Patua One',cursive;
+} 
+
+a { 
+	text-align: center;
+	font-size: 29px;
+	display: inline;
+	color:aliceblue;
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+nav {
+	display: flex;
+}
+
+nav a {
+	flex: auto;
+	text-align: center;
+}
